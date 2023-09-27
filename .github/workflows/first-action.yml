@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs_on: ubuntu-latest
     steps: 
-      -name: print my name
-       run: echo "Raviraj"
-      -name: print goodbye
-       run: echo "goodbye ravi"
+      - name: print my name
+        run: echo "Raviraj"
+      - name: print goodbye
+        run: echo "goodbye ravi"
